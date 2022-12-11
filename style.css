@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+    /*border: 1px solid black;*/
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 1.2rem 0;
+    background-color: white;
+    
+}
+header>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 120px;
+    margin-left: 5rem;
+    text-align: center;
+    padding: 0.3rem;
+    color: black;
+    display: block;
+    border: 3px solid black;    
+}
+header>ul {
+    display: flex;
+    margin-right: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header>ul>li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+}
+header>ul>li>a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+    color: black;
+}
+header>ul>li:first-child>a {
+    border-bottom: 5px solid black;
+}
+header>ul>li>a:hover {
+    border-bottom: 5px solid gray;
+}
+@media screen and (max-width:600px){
+    header {
+        flex-direction: column;
+    }
+    header>p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 120px;
+    margin-left: 0.7rem;
+    text-align: center;
+    padding: 0.3rem;
+    color: black;
+    display: block;
+    border: 3px solid black;    
+}
+header>ul {
+    display: flex;
+    margin-right: 1rem;
+}
+}
+section {
+    padding: 0 3rem;
+    text-align: center;
+}
+section>p {
+    margin-bottom: 2rem;
+}
+section>p:first-child {
+    font-size: 2.5rem;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section>p:last-of-type {
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section>a {
+    display: block;
+    border: 1px solid black;
+    width: 120px;
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: white;
+    color: navy;
+}
+body {
+    background-color: #151B54;
+    color: white;
+}
+footer {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: silver;
+}
+footer>a {
+    color: white;
+    text-decoration: none
+}

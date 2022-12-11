@@ -1,0 +1,29 @@
+table {
+  width: 80%;
+	text-align:left;
+}
+.intro{
+	width:50%;
+	font-size:1.3rem;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 5rem;
+}
+.tbl {
+    width: 500px;
+    border-collapse: collapse;
+}
+.tbl caption {
+    display: none;
+}
+.tbl thead th {
+    width: 25%;
+}
+.tbl th,
+.tbl td {
+    padding: 20px 0;
+    border: none;
+}
+.tbl td {
+    text-align: center;
+}
